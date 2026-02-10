@@ -17,7 +17,7 @@
         "typescript": "^5.5.0"
     },
     "dependencies": {
-        "@dragee-io/type": "https://github.com/dragee-io/dragee-model",
+        "@dragee-io/type": "https://github.com/fixentropy-io/fixentropy-model",
         "axios": "^1.7.7",
         "tar": "^7.4.3"
     }
