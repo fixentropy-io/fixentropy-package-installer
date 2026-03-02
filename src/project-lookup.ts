@@ -1,4 +1,4 @@
-import { type Maybe, type Nullable, type Result, none, some } from '@dragee-io/type/common';
+import { type Maybe, type Nullable, type Result, none, some } from '@fixentropy-io/type/common';
 import { Glob } from 'bun';
 import { install } from './install-namespace-project.ts';
 
@@ -32,7 +32,7 @@ export const findProjectIndex = async (localRegistryPath: string, projectName: s
         console.log(`${projectName} found`);
         return result.value;
     } catch (error) {
-        console.log(`${projectName} not found`);
+        console.error(`${projectName} not found:`, error);
         return null;
     }
 };
