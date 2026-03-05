@@ -1,5 +1,5 @@
 import { describe, expect, spyOn, test } from 'bun:test';
-import { ko, none, ok, some } from '@dragee-io/type/common';
+import { ko, none, ok, some } from '@fixentropy-io/type/common';
 import * as installNamespaceProject from '../src/install-namespace-project.ts';
 import { findProjectIndex, findProjectLocally, installFor } from '../src/project-lookup.ts';
 import indexContent from '../test/approval/index.ts';

@@ -1,6 +1,6 @@
 import { existsSync, readFileSync, unlink } from 'node:fs';
 import { Readable } from 'node:stream';
-import { type Result, ok } from '@dragee-io/type/common';
+import { type Result, ok } from '@fixentropy-io/type/common';
 import { Parser, type ReadEntry } from 'tar';
 import {
     downloadProjectAndGetName,
